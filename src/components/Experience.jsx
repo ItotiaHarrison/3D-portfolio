@@ -80,7 +80,7 @@ const Experience = () => {
         </VerticalTimeline>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Experience
+export default SectionWrapper(Experience, "work");
