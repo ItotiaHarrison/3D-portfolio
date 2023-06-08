@@ -22,6 +22,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import BMT from "./company/BMT.png";
+import human from "./human.png";
 import Italanta from "./company/Italanta.png";
 import BMTsite from "./BMTsite.png";
 import RealEstate from "./RealEstate.png";
@@ -50,6 +51,7 @@ export {
   typescript,
   threejs,
   BMT,
+  human,
   Italanta,
   BMTsite,
   RealEstate,

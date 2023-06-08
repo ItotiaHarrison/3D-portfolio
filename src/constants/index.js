@@ -12,6 +12,7 @@ import {
     git,
     figma,
    BMT,
+   human,
     BMTsite,
     RealEstate,
     Riziki,
@@ -124,19 +125,19 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "Harrison is a highly motivated and dedicated individual who consistently goes above and beyond to ensure the success of the projects he works on.",
       name: "Lawrence Adam",
       designation: "Executive director",
       company: "Beyond my Tribe",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      image: human,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "Having had the opportunity to collaborate with Harrison on multiple projects, I can confidently vouch for his exceptional skills and professionalism.",
       name: "Peter Mbui",
       designation: "Developer",
       company: "I&M Bank",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: human,
     },
   ];
   

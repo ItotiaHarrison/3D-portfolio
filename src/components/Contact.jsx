@@ -31,18 +31,20 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+
+    
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        import.meta.env.contact_service,
+        import.meta.env.contact_form,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Harrison Itotia",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "harrisonitotia@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        import.meta.env.mLGTtoMt_3Vwe2WSx
       )
       .then(
         () => {
@@ -59,7 +61,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          alert("Something went wrong. Please try again.");
         }
       );
   };
